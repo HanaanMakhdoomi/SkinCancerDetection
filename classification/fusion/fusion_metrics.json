@@ -1,0 +1,21 @@
+{
+    "fusion_method": "weighted probability averaging",
+    "efficientnetv2_weight": 0.91,
+    "dinov2_weight": 0.08999999999999997,
+    "validation_auroc": 0.8271370023419203,
+    "validation_auprc": 0.6256237171803665,
+    "validation_f1": 0.5617977528089888,
+    "validation_threshold": 0.3999999999999998,
+    "test_accuracy": 0.83,
+    "test_precision": 0.5641025641025641,
+    "test_recall_sensitivity": 0.39285714285714285,
+    "test_specificity": 0.930327868852459,
+    "test_f1": 0.4631578947368421,
+    "test_balanced_accuracy": 0.6615925058548009,
+    "test_auroc": 0.8190134660421545,
+    "test_auprc": 0.513995374605418,
+    "true_negative": 227,
+    "false_positive": 17,
+    "false_negative": 34,
+    "true_positive": 22
+}

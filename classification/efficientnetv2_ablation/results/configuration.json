@@ -1,0 +1,23 @@
+{
+    "device": "cpu",
+    "cpu_threads": 7,
+    "image_size": 224,
+    "batch_size": 4,
+    "head_epochs": 3,
+    "finetune_epochs": 9,
+    "head_learning_rate": 0.001,
+    "backbone_learning_rate": 1e-05,
+    "classifier_learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "early_stopping_patience": 4,
+    "gradient_clip_value": 1.0,
+    "unfreeze_last_feature_blocks": 3,
+    "random_seed": 42,
+    "positive_class_weight": 4.343511450381679,
+    "classification_input": "Original ISIC-2017 images",
+    "segmentation_used": false,
+    "classification_model": "EfficientNetV2-S",
+    "classification_task": "Binary melanoma vs non-melanoma",
+    "threshold_selection": "Validation-set F1 optimization",
+    "purpose": "U-Net segmentation ablation baseline"
+}

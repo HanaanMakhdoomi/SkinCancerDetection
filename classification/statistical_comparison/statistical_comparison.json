@@ -1,0 +1,36 @@
+{
+    "comparison": {
+        "proposed_model": "U-Net lesion segmentation + EfficientNetV2-S",
+        "ablation_model": "Original image + EfficientNetV2-S"
+    },
+    "test_set": {
+        "samples": 300,
+        "melanoma": 56,
+        "non_melanoma": 244
+    },
+    "point_estimates": {
+        "segmented_auroc": 0.8234777517564402,
+        "ablation_auroc": 0.7386563231850117,
+        "auroc_difference_segmented_minus_ablation": 0.08482142857142849,
+        "segmented_auprc": 0.5053498115511754,
+        "ablation_auprc": 0.4703092896583415
+    },
+    "bootstrap": {
+        "iterations": 10000,
+        "random_seed": 42,
+        "difference_ci_95_percent": [
+            0.026491144613583126,
+            0.14783372365339575
+        ],
+        "two_sided_p_approximation": 0.0034
+    },
+    "paired_permutation_test": {
+        "iterations": 10000,
+        "random_seed": 43,
+        "two_sided_p_value": 0.0027997200279972004
+    },
+    "interpretation": {
+        "confidence_interval": "The 95% bootstrap confidence interval excludes zero.",
+        "permutation_test": "The paired permutation test is statistically significant at the 0.05 level."
+    }
+}

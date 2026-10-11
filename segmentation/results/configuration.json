@@ -1,0 +1,12 @@
+{
+    "image_size": 256,
+    "batch_size": 4,
+    "epochs": 30,
+    "learning_rate": 0.0001,
+    "weight_decay": 1e-05,
+    "early_stopping_patience": 6,
+    "random_seed": 42,
+    "base_channels": 16,
+    "device": "cpu",
+    "cpu_threads": 7
+}

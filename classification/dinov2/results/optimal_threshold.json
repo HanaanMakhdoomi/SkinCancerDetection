@@ -1,0 +1,6 @@
+{
+    "threshold": 0.6899999999999997,
+    "validation_f1": 0.5849056603773585,
+    "best_validation_auroc": 0.813231850117096,
+    "best_epoch": 26
+}

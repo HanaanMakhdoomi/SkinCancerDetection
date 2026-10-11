@@ -1,0 +1,5 @@
+model,threshold,TN,FP,FN,TP
+EfficientNetV2-S + U-Net,0.37,227,17,34,22
+DINOv2 ViT-S/14,0.69,210,34,26,30
+Probability Fusion,0.4,227,17,34,22
+EfficientNetV2-S without U-Net,0.22,220,24,30,26

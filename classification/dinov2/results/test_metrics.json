@@ -1,0 +1,17 @@
+{
+    "accuracy": 0.8,
+    "precision": 0.46875,
+    "recall_sensitivity": 0.5357142857142857,
+    "specificity": 0.860655737704918,
+    "f1_score": 0.5,
+    "balanced_accuracy": 0.6981850117096018,
+    "auroc": 0.7965456674473068,
+    "auprc": 0.5181538826921022,
+    "threshold": 0.6899999999999997,
+    "true_negative": 210,
+    "false_positive": 34,
+    "false_negative": 26,
+    "true_positive": 30,
+    "best_validation_auroc": 0.813231850117096,
+    "best_epoch": 26
+}

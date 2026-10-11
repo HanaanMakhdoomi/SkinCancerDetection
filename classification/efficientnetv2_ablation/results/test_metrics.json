@@ -1,0 +1,52 @@
+{
+    "threshold_0_50": {
+        "accuracy": 0.8333333333333334,
+        "precision": 0.6666666666666666,
+        "recall": 0.21428571428571427,
+        "sensitivity": 0.21428571428571427,
+        "specificity": 0.9754098360655737,
+        "f1": 0.32432432432432434,
+        "balanced_accuracy": 0.594847775175644,
+        "auroc": 0.7386563231850117,
+        "auprc": 0.4703092896583415,
+        "tn": 238,
+        "fp": 6,
+        "fn": 44,
+        "tp": 12
+    },
+    "validation_optimized_threshold": {
+        "threshold": 0.22000000000000003,
+        "metrics": {
+            "accuracy": 0.82,
+            "precision": 0.52,
+            "recall": 0.4642857142857143,
+            "sensitivity": 0.4642857142857143,
+            "specificity": 0.9016393442622951,
+            "f1": 0.49056603773584906,
+            "balanced_accuracy": 0.6829625292740047,
+            "auroc": 0.7386563231850117,
+            "auprc": 0.4703092896583415,
+            "tn": 220,
+            "fp": 24,
+            "fn": 30,
+            "tp": 26
+        }
+    },
+    "test_loss": 1.8662305249770483,
+    "best_checkpoint": {
+        "stage": 2,
+        "epoch": 5,
+        "validation_auroc": 0.8479947306791569
+    },
+    "dataset": {
+        "train": 1400,
+        "validation": 300,
+        "test": 300,
+        "train_melanoma": 262,
+        "train_non_melanoma": 1138
+    },
+    "ablation": {
+        "segmentation_used": false,
+        "classification_input": "Original ISIC-2017 images"
+    }
+}

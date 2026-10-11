@@ -1,0 +1,15 @@
+{
+    "model": "DINOv2 ViT-S/14",
+    "parameters": 22056576,
+    "feature_dimension": 384,
+    "pretrained": true,
+    "backbone_frozen": true,
+    "classifier": "128-unit MLP",
+    "dataset": "ISIC 2017",
+    "input": "U-Net lesion-focused images",
+    "seed": 42,
+    "image_size": 224,
+    "batch_size": 8,
+    "learning_rate": 0.001,
+    "positive_class_weight": 4.343511450381679
+}

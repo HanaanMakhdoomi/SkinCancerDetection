@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Datasets and raw data
+ISIC-2017_Training_Data/
+ISIC-2017_Training_Part1_GroundTruth/
+ISIC-2017_Test_Data/
+ISIC-2017_Test_v2_Data/
+ISIC-2017_Test_v2_Part1_GroundTruth/
+ISIC-2017_Validation_Data/
+ISIC-2017_Validation_Part1_GroundTruth/
+data/
+dataset/
+datasets/
+
+# Generated image datasets & mask outputs
+segmentation/lesion_focused/
+segmentation/predicted_masks/
+classification/*/features/
+
+# Model checkpoints and weights
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.keras
+*.safetensors
+
+# Training outputs
+runs/
+checkpoints/
+classification/*/models/
+segmentation/models/
+
+# Archives
+*.zip
+*.7z
+*.tar
+*.gz
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
